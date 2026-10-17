@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Política de Privacidade — Grana Organizada</title>
+  <meta name="description" content="Política de Privacidade do Grana Organizada: quais dados o aplicativo acessa nas APIs do Google (YouTube e Drive), para quê e como revogar o acesso.">
+  <style>
+    :root { --verde:#1B4D3E; --off:#FAF6EF; --mostarda:#E8A845; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; background:var(--off); color:#1d2b26; line-height:1.65; }
+    header { background:var(--verde); color:var(--off); padding:28px 20px; text-align:center; }
+    header a { color:var(--off); text-decoration:none; font-weight:700; }
+    main { max-width:780px; margin:0 auto; padding:28px 20px 48px; }
+    h1 { color:var(--verde); margin-top:0; }
+    h2 { color:var(--verde); margin-top:2rem; }
+    footer { border-top:1px solid #d9d2c3; padding:20px; text-align:center; font-size:.9rem; color:#4a5a54; }
+    a { color:var(--verde); }
+    .data { color:#4a5a54; font-size:.95rem; }
+  </style>
+</head>
+<body>
+  <header><a href="index.html">Grana Organizada</a></header>
+
+  <main>
+    <h1>Política de Privacidade</h1>
+    <p class="data">Última atualização: 17 de outubro de 2026</p>
+
+    <h2>1. Quem somos</h2>
+    <p>O Grana Organizada é um projeto de vídeos de educação financeira pessoal publicados no YouTube. Esta política descreve como o aplicativo "Grana Organizada" (a ferramenta interna de produção de vídeos do canal) trata informações. O responsável pelo tratamento é a equipe do Grana Organizada; a razão social e o CNPJ serão informados aqui quando a empresa responsável for constituída. Contato: <a href="mailto:granaorganizada.mkt@gmail.com">granaorganizada.mkt@gmail.com</a>.</p>
+
+    <h2>2. O que o aplicativo faz</h2>
+    <p>O aplicativo é usado somente pela equipe do canal. Ele monta vídeos de educação financeira e publica esses vídeos no canal do YouTube do próprio Grana Organizada. Não é um serviço aberto ao público: ninguém além da equipe faz login nele.</p>
+
+    <h2>3. Dados acessados por meio das APIs do Google</h2>
+    <p>Quando a pessoa responsável pelo canal autoriza o aplicativo na conta Google do canal, ele solicita estas permissões:</p>
+    <ul>
+      <li><strong>YouTube Data API — envio de vídeos (<code>youtube.upload</code>):</strong> para enviar os vídeos produzidos ao canal Grana Organizada.</li>
+      <li><strong>YouTube Data API — gerenciamento do canal (<code>youtube.force-ssl</code>):</strong> para confirmar em qual canal um vídeo foi publicado e apagar vídeos de teste criados pelo próprio aplicativo.</li>
+      <li><strong>Google Drive — arquivos criados pelo aplicativo (<code>drive.file</code>):</strong> para guardar, em pastas da equipe, os arquivos de produção (áudios de narração e imagens) criados pelo próprio aplicativo. Esta permissão não dá acesso aos demais arquivos do Drive.</li>
+    </ul>
+    <p>O aplicativo guarda apenas o token de autorização (refresh token) necessário para continuar funcionando, em um cofre de variáveis protegido do servidor da equipe.</p>
+
+    <h2>4. Para que usamos esses dados</h2>
+    <p>Usamos o acesso exclusivamente para as finalidades acima: publicar vídeos do canal e armazenar os arquivos de produção. Não usamos os dados para publicidade, não criamos perfis de pessoas e não vendemos nem alugamos nenhuma informação.</p>
+
+    <h2>5. Compartilhamento</h2>
+    <p>Não compartilhamos dados obtidos das APIs do Google com terceiros. O uso e a transferência, para qualquer outro aplicativo, das informações recebidas das APIs do Google obedecerão à <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de Dados do Usuário dos Serviços de API do Google</a>, incluindo os requisitos de Uso Limitado.</p>
+
+    <h2>6. Armazenamento e retenção</h2>
+    <p>Os arquivos de produção ficam no Google Drive da equipe e os vídeos ficam no YouTube, nas contas da própria equipe. O token de autorização é mantido apenas enquanto o aplicativo estiver em uso e é apagado quando o acesso é revogado ou o projeto é encerrado.</p>
+
+    <h2>7. Como revogar o acesso</h2>
+    <p>Você pode revogar o acesso do aplicativo a qualquer momento em <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. Ao revogar, o aplicativo deixa de conseguir acessar a conta.</p>
+
+    <h2>8. Este site</h2>
+    <p>Este site é estático e informativo. Ele não usa cookies, não tem formulários e não coleta dados de quem o visita.</p>
+
+    <h2>9. Seus direitos (LGPD)</h2>
+    <p>Nos termos da Lei Geral de Proteção de Dados (Lei nº 13.709/2018), você pode pedir confirmação de tratamento, acesso, correção ou exclusão de dados que porventura tratemos sobre você. Escreva para <a href="mailto:granaorganizada.mkt@gmail.com">granaorganizada.mkt@gmail.com</a>.</p>
+
+    <h2>10. Alterações</h2>
+    <p>Podemos atualizar esta política. A data de "última atualização" no topo indica a versão em vigor.</p>
+  </main>
+
+  <footer>
+    © 2026 Grana Organizada · <a href="index.html">Página inicial</a>
+  </footer>
+</body>
+</html>
